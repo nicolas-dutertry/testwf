@@ -19,6 +19,15 @@
         <tag>HEAD</tag>
     </scm>
     
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/nicolas-dutertry/testwf</url>
+        </repository>
+    </distributionManagement>
+    
+    
     <developers>
         <developer>
             <name>Nicolas Dutertry</name>
